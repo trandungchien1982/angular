@@ -48,3 +48,26 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 ```
 
 ==============================================================
+
+# Ví dụ 01.HelloWorld
+==============================================================
+- Tạo app mới
+```
+ng new my-app
+```
+
+- Vào folder chính & chạy app
+```
+cd my-app
+ng serve --open
+```
+
+- Kiểm tra kết quả
+```
+http://localhost:4200/
+```
+
+- Chạy các test cases (nằm trong file *.spec.ts)
+```
+ng test
+```
