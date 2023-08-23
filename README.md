@@ -46,5 +46,8 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
     @angular-devkit/schematics   16.2.0 (cli-only)
     @schematics/angular          16.2.0 (cli-only)
 ```
-
+# Folder liên quan trên Windows
+```
+D:\Projects\Angular
+```
 ==============================================================
