@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPattern": "/add-user"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "access-control-expose-headers": "X-Total-Count",
+      "X-Total-Count": "1"
+    },
+    "jsonBody": {
+      "result": "OK",
+      "status": "Success in create user",
+      "message":"POST data successfully..."
+    }
+  }
+  
+}

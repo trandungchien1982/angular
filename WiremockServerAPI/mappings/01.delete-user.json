@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/delete-user/3"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 5000,
+    "headers": {
+      "access-control-expose-headers": "X-Total-Count",
+      "X-Total-Count": "1"
+    },
+    "jsonBody": {
+      "result": "OK",
+      "delayMessage": "Delay process delete in 5 second",
+      "status": "Success in DELETE user",
+      "message":"DELEATE data ok..."
+    }
+  }
+  
+}

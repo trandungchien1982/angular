@@ -49,25 +49,45 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 01.HelloWorld
+# Ví dụ 02.LoadDataFromServer
+
 ==============================================================
-- Tạo app mới
+- Nạp data JSON [] vào trong UI
+- Thử nghiệm các method : GET/POST/PUT/DELETE với API giả lập từ Wiremock
 ```
-ng new my-app
+(Execute Batch file: run-wiremock-9000.bat)
+
+GET  http://localhost:9000/list-users
+POST http://localhost:9000/add-user
+PUT  http://localhost:9000/update-user
+DEL  http:/localhost:9000/delete-user/3
 ```
 
-- Vào folder chính & chạy app
+- Ngoài ra, ta còn giả lập TH request trả về với delay 3s, 5s
 ```
-cd my-app
-ng serve --open
+01.list-users.json
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/list-users"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 3000,
+    "headers": {
+    
+
+
+01.delete-user.json
+{
+  "request": {
+    "method": "DELETE",
+    "urlPattern": "/delete-user/3"
+  },
+  "response": {
+    "status": 200,
+    "fixedDelayMilliseconds": 5000,
+    "headers": {
+
 ```
 
-- Kiểm tra kết quả
-```
-http://localhost:4200/
-```
-
-- Chạy các test cases (nằm trong file *.spec.ts)
-```
-ng test
-```

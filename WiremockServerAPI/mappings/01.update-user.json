@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPattern": "/update-user"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "access-control-expose-headers": "X-Total-Count",
+      "X-Total-Count": "1"
+    },
+    "jsonBody": {
+      "result": "OK",
+      "status": "Success in UPDATE user",
+      "message":"PUT data ok..."
+    }
+  }
+  
+}
