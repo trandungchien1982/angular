@@ -49,25 +49,16 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 01.HelloWorld
+# Ví dụ 03.MultiComponents + @Input + @Output
 ==============================================================
-- Tạo app mới
-```
-ng new my-app
-```
-
-- Vào folder chính & chạy app
-```
-cd my-app
-ng serve --open
-```
-
-- Kiểm tra kết quả
-```
-http://localhost:4200/
-```
-
-- Chạy các test cases (nằm trong file *.spec.ts)
-```
-ng test
-```
+- Tìm hiểu cách sử dụng @Input và @Output để tương tác giữa Parent/Child Component với nhau
+    - @Input đặt trong Child Component và cho phép Parent Component điều khiển Child Component theo sự cho phép của Child Component
+    - @Output đặt trong Child Component và Parent Component sẽ hứng lấy các events xảy ra đối với @Output để có cách ứng xử hợp lý
+    
+- Parent Component sẽ là 
+    - app.component.html
+    - app.component.ts
+- Child component gồm 2 ComponentUIs:
+    - /input-output/*
+    - /input-output-02/*
+    
