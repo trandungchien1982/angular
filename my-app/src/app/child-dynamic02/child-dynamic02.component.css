@@ -1,0 +1,11 @@
+.childDynamic02Region {
+  border: 5px dashed yellow;
+  background: orange;
+  padding: 20px;
+  margin: 40px;
+}
+
+.childDynamic02Region h2 {
+  color: blue !important;
+  font-size: 40px;
+}

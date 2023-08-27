@@ -1,0 +1,11 @@
+.childDynamic03Region {
+  border: 15px dashed yellow;
+  background: lightyellow;
+  padding: 20px;
+  margin: 40px;
+}
+
+.childDynamic03Region h2 {
+  color: magenta !important;
+  font-size: 60px;
+}

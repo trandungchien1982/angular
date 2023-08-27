@@ -5,19 +5,21 @@
   [style.background]="background4Parent"
 >
 The main data of app.component.html<br/>
-Nội dung file chính cho phần @Input, @Output ...<br/>
-  <p>
-    <input type="text" [(ngModel)]="inputValue01" />
+Nội dung file chính ...<br/>
+
+  <p>Chọn Dynamic Component
+    <select (change)="loadComponentUI($event)">
+      <option value="0">Dyanmic Component 01</option>
+      <option value="1">Dyanmic Component 02</option>
+      <option value="2">Dyanmic Component 03 - New Custom</option>
+    </select>
   </p>
 
-  <child-input-output [item]="inputValue01" (changePaddingRequest)="parentProcessForChangePaddingRequest($event)">
-  </child-input-output>
+  <p>
+    <input type="text" [(ngModel)]="inputValue01" (keyup)="changeInputValue01($event)"/>
+  </p>
 
   <hr/>
-  <p>
-    <input type="text" [(ngModel)]="inputValue02" />
-  </p>
+  <ng-template tplPlaceHolder></ng-template>
 
-  <child-input-output-02 [item]="inputValue02" (changeSelectedBackground)="parentProcessForChangeBackground($event)" >
-  </child-input-output-02>
 </div>

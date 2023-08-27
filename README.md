@@ -49,16 +49,22 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 03.MultiComponents + @Input + @Output
+# Ví dụ 04.DynamicComponentLoading
+(Nạp Component dynamic ngay trong code)
+
+**Tham khảo tại**
+```
+https://angular.io/guide/dynamic-component-loader
+```
+
 ==============================================================
-- Tìm hiểu cách sử dụng @Input và @Output để tương tác giữa Parent/Child Component với nhau
-    - @Input đặt trong Child Component và cho phép Parent Component điều khiển Child Component theo sự cho phép của Child Component
-    - @Output đặt trong Child Component và Parent Component sẽ hứng lấy các events xảy ra đối với @Output để có cách ứng xử hợp lý
-    
-- Parent Component sẽ là 
-    - app.component.html
-    - app.component.ts
-- Child component gồm 2 ComponentUIs:
-    - /input-output/*
-    - /input-output-02/*
-    
+- Tìm hiểu cách tạo ra nhiều Dynamic Component để inject vào 1 placeholder nào đó.
+- Ta có thể điều khiển ComponentUI với design như bình thường (bộ 3 file: *.ts, *.html, *.css) và có thể nạp dynamic để inject vào 1 vị trí cụ thể
+- Ta có thể điều chỉnh data của Dynamic Component UI
+
+**Demo cụ thể**
+- Select box dynamic content có 3 options:
+  - **Dynamic Component 01** thuộc folder `child-dynamic-01`
+  - **Dynamic Component 02** thuộc folder `child-dynamic-02`, gần giống cấu trúc style 01 & data 01
+  - **Dynamic Component 03** thuộc folder `child-dynamic-03`, có layout khác hẳn & data cũng khác luôn.
+ 
