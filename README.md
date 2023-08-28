@@ -49,11 +49,16 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 01.HelloWorld
+# Ví dụ 05.DependencyInjection
 ==============================================================
-- Tạo app mới
+- Tìm hiểu về DependencyInjection trong Angular
+- Tìm hiểu cách định nghĩa @Service, ... trong Angular
+- Tìm hiểu cách Inject Service vào trong AppComponent
+
+- Tạo Service mới dùng Angular CLI:
 ```
-ng new my-app
+    ng generate service services/hero
+    ng generate service services/logger
 ```
 
 - Vào folder chính & chạy app
