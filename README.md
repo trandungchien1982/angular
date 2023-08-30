@@ -49,9 +49,22 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 01.HelloWorld
+# Ví dụ 07.NavigatorUrl
 ==============================================================
-- Tạo app mới
+
+Tìm hiểu về Navigator page thông qua Routing Url + Component tương ứng
+
+Tham khảo : <br/>
+Bài viết từ trang Angular Tutorial:
+- https://angular.io/tutorial/tour-of-heroes/toh-pt5
+
+Live Code + Demo : 
+- https://angular.io/generated/live-examples/toh-pt5/stackblitz.html
+
+Download source code gốc :
+- https://angular.io/generated/zips/toh-pt5/toh-pt5.zip
+
+Lệnh tạo App mới trong Angular
 ```
 ng new my-app
 ```
