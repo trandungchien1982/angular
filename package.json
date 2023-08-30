@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "angular-i18next": "^16.0.0",
+    "i18next": "^22.5.1"
+  }
+}

@@ -49,17 +49,33 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 05.DependencyInjection
-==============================================================
-- Tìm hiểu về DependencyInjection trong Angular
-- Tìm hiểu cách định nghĩa @Service, ... trong Angular
-- Tìm hiểu cách Inject Service vào trong AppComponent
+# Ví dụ 06.MultiLanguages-i18n
+==============================================================<br/>
+Tham khảo library home page:<br/>
+https://www.npmjs.com/package/angular-i18next
 
-- Tạo Service mới dùng Angular CLI:
+Tham khảo Demo: <br/>
+https://romanchuk.github.io/angular-i18next-demo/
+
+Tham khảo ví dụ: <br/>
+https://phrase.com/blog/posts/angular-l10n-with-i18next/
+
+- Tìm hiểu về xử lý đa ngôn ngữ bằng thư viện i18next
+- Apply đa ngôn ngữ ngay trong file HTML
+- Apply đa ngôn ngữ trong code TypeScript
+
+- Cài đặt thư viện i18next
 ```
-    ng generate service services/hero
-    ng generate service services/logger
+    npm install i18next --save
+    npm install angular-i18next --save
 ```
+
+# TẠM THỜI VẪN ĐANG BỊ STUCK TRONG VIỆC TRIỂN KHAI VÍ DỤ VỚI i18next
+**Vậy nên Author sẽ skip phần này, khi nào có nhu cầu thực tế sẽ quay trở lại**
+- Ta có thể tham khảo code mẫu trong này :
+  - https://www.i18next.com/overview/getting-started
+  - https://www.npmjs.com/package/angular-i18next
+  - https://romanchuk.github.io/angular-i18next-demo/
 
 - Vào folder chính & chạy app
 ```

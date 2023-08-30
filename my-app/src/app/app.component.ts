@@ -11,20 +11,16 @@ import { LoggerService } from './services/logger.service';
 export class AppComponent {
   listAllHero: any = [];
   constructor(
-      private heroService: HeroService,
-      private logger: LoggerService
+      private heroService: HeroService
   ) {
 
   }
 
   ngOnInit() {
-    this.logger.info('Init AppComponent ...');
     this.listAllHero = this.heroService.getAllHeroes();
   }
 
   updateListHeroes() {
-    this.logger.info('updateListHeroes() ...');
-    this.logger.warn(' hihi, this is a warning log ... ');
     this.listAllHero = this.heroService.getMaximumHeroes();
   }
 }
