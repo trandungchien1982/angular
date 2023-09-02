@@ -49,12 +49,19 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 01.HelloWorld
+# Ví dụ 08.ApplyLibraries
 ==============================================================
-- Tạo app mới
-```
-ng new my-app
-```
+- Tìm hiểu về cách tạo Custom Library để sử dụng cho nhiều projects khác nhau...
+- Tham khảo :
+  - https://angular.io/guide/creating-libraries
+  - rothsandro/angular-library-example: Example repo for building an Angular Library with multiple entry points
+    (https://github.com/rothsandro/angular-library-example)
+  - https://sandroroth.com/blog/angular-library
+<br/>
+PHẦN XỬ LÝ COMPONENTS NÀY KHÁ RẮC RỐI VÀ KHÁ TỐN THỜI GIAN.<br/>
+<br/>
+SẼ QUAY LẠI TÌM HIỂU SAU KHI CÓ NHU CẦU THỰC TẾ<br/>
+(TỪ PROJECT/ YÊU CẦU BẮT BUỘC/ …)<br/>
 
 - Vào folder chính & chạy app
 ```
