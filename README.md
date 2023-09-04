@@ -49,19 +49,21 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 08.ApplyLibraries
+# Ví dụ 09.PagingWithAngularMaterial
 ==============================================================
-- Tìm hiểu về cách tạo Custom Library để sử dụng cho nhiều projects khác nhau...
+- Tìm hiểu về phân trang trong Angular Material
 - Tham khảo :
-  - https://angular.io/guide/creating-libraries
-  - rothsandro/angular-library-example: Example repo for building an Angular Library with multiple entry points
-    (https://github.com/rothsandro/angular-library-example)
-  - https://sandroroth.com/blog/angular-library
+  - https://viblo.asia/p/xay-dung-tinh-nang-phan-trang-voi-angular-13-eW65GBj9lDO
+  - https://material.angular.io/components/categories
+  - https://material.angular.io/guide/getting-started
 <br/>
-PHẦN XỬ LÝ COMPONENTS NÀY KHÁ RẮC RỐI VÀ KHÁ TỐN THỜI GIAN.<br/>
-<br/>
-SẼ QUAY LẠI TÌM HIỂU SAU KHI CÓ NHU CẦU THỰC TẾ<br/>
-(TỪ PROJECT/ YÊU CẦU BẮT BUỘC/ …)<br/>
+
+- Thêm các Libraries cần thiết:
+```
+  ng add @angular/cdk
+  ng add @angular/material
+  
+```
 
 - Vào folder chính & chạy app
 ```

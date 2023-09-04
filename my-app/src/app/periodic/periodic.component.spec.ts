@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ChienLibComponent } from './chien-lib.component';
+import { PeriodicComponent } from './periodic.component';
 
-describe('ChienLibComponent', () => {
-  let component: ChienLibComponent;
-  let fixture: ComponentFixture<ChienLibComponent>;
+describe('PeriodicComponent', () => {
+  let component: PeriodicComponent;
+  let fixture: ComponentFixture<PeriodicComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ChienLibComponent]
+      declarations: [PeriodicComponent]
     });
-    fixture = TestBed.createComponent(ChienLibComponent);
+    fixture = TestBed.createComponent(PeriodicComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
