@@ -49,30 +49,30 @@ Mỗi nhánh trong Repo sẽ là 1 ví dụ/ giải pháp/ project mẫu trong A
 
 ==============================================================
 
-# Ví dụ 01.HelloWorld
+# Ví dụ 10.BuildEnvDockerNginx
 ==============================================================
-- Tạo app mới
+<br/>
+**Tiến hành build 1 project Angular ra dạng Docker & chạy trên môi trường Production (vd như nginx)**
+
+- CLI để build Docker image:
 ```
-ng new my-app
+    ./build-docker.sh
 ```
 
-- Vào folder chính & chạy app
+- CLI để deploy WebApp sử dụng Docker ngay trên host hiện tại, e.g. localhost:
 ```
-cd my-app
-ng serve --open
-```
-
-- Kiểm tra kết quả
-```
-http://localhost:4200/
+    ./run-docker.sh
 ```
 
-- Chạy các test cases (nằm trong file *.spec.ts)
+- Chaỵ Docker & xem kết quả tại localhost:9100 :
 ```
-ng test
+    docker images
+    docker stop angular-demo
+    docker rm angular-demo
+    docker run -p 9100:80 --name angular-demo -d --env PORT=80 tdchien1982/angular:10.build-docker-nginx
 ```
 
-- Lưu ý: TH clone code từ Github về và cần build lại project để tạo folder 'node-modules' thì ta gọi lệnh sau:
+- Xem kết quả trên server deploy (chẳng hạn như localhost):
 ```
-npm ci
+    http://localhost:9100
 ```

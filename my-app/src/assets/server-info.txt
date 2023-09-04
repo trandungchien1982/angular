@@ -1,0 +1,34 @@
+RAM & CPU info
+             total       used       free     shared    buffers     cached
+Mem:          2991       1975       1015        276        157       1305
+-/+ buffers/cache:        512       2478
+Swap:         1023         71        952
+
+Disk info
+Filesystem                Size      Used Available Use% Mounted on
+overlay                  58.4G     31.7G     23.7G  57% /
+tmpfs                    64.0M         0     64.0M   0% /dev
+shm                      64.0M         0     64.0M   0% /dev/shm
+/dev/vda1                58.4G     31.7G     23.7G  57% /etc/resolv.conf
+/dev/vda1                58.4G     31.7G     23.7G  57% /etc/hosts
+tmpfs                     1.5G         0      1.5G   0% /proc/acpi
+tmpfs                    64.0M         0     64.0M   0% /proc/kcore
+tmpfs                    64.0M         0     64.0M   0% /proc/keys
+tmpfs                    64.0M         0     64.0M   0% /proc/timer_list
+tmpfs                    64.0M         0     64.0M   0% /proc/sched_debug
+tmpfs                     1.5G         0      1.5G   0% /sys/firmware
+
+System info
+Linux buildkitsandbox 5.10.104-linuxkit #1 SMP Thu Mar 17 17:08:06 UTC 2022 x86_64 Linux
+
+Working folder
+total 252
+-rw-r--r--    1 root     root         12290 Sep  4 16:06 3rdpartylicenses.txt
+-rw-r--r--    1 root     root           494 Jun 25  2019 50x.html
+-rw-r--r--    1 root     root           948 Sep  4 16:06 favicon.ico
+-rw-r--r--    1 root     root           582 Sep  4 16:06 index.html
+-rw-r--r--    1 root     root        182267 Sep  4 16:06 main.ba3ec399e3ffaeee.js
+-rw-r--r--    1 root     root         33801 Sep  4 16:06 polyfills.4752ba083e9272b5.js
+-rw-r--r--    1 root     root           890 Sep  4 16:06 runtime.771c5fa6dd11d129.js
+-rw-r--r--    1 root     root          1191 Sep  4 16:06 server-info.txt
+-rw-r--r--    1 root     root             0 Sep  4 16:06 styles.ef46db3751d8e999.css
